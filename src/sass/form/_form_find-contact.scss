@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+.form {
+	&__find-contact {
+		width: 100%;
+
+		&--input {
+			height: 48px;
+		}
+	}
+}
+
+.find-contact__simple {
+	position: relative;
+	border: 1px solid;
+	border-color: transparent;
+	border-bottom-color: $pr-color;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	&:focus {
+		border-color: transparent;
+		border-width: 1px;
+	}
+}

@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+$pr-color: #22c1c7;
+$dark: #283a48;
+$dark-l: #3f5666;
+
+$bg-color: #f3f3f5;
+
+body {
+	background-color: $bg-color;
+}
+
+a {
+	color: $pr-color;
+
+	&:hover {
+		color: $dark;
+	}
+	&:active {
+		color: darken($pr-color, 20%);
+	}
+}
+
+.vh100 {
+	height: 100vh;
+	overflow-y: auto;
+}
+
+.bg-dark-l {
+	background-color: $dark-l !important;
+}
+
+@import './sidebar/sidebar';
+@import './navbar/navbar';
+@import './nav/nav';
+@import './breadcrumb/breadcrumb';
+@import './form/form';
+@import './spinner/spinner';
+@import './card/card';
+@import './contact/contact';
+@import './button/button';
+@import './icon/icon';

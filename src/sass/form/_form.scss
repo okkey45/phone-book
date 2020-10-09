@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+.form-control {
+	border-color: transparent;
+	border-radius: 0;
+	border-top: 2px solid #9fabb3;
+	border-bottom: 2px solid #9fabb3;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: transparent;
+
+	&:focus {
+		outline: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border: 2px solid $pr-color;
+	}
+	&:not(:focus) {
+		color: #fff;
+	}
+}
+
+@import './form_find-contact';
+@import './form_edit-contact';
+@import './form_create-contact';

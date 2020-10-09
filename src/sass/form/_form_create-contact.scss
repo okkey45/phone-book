@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+
+.from__create--contact {
+	.form-control {
+		margin-bottom: 1rem;
+		border: 1px solid;
+		border-color: transparent;
+		border-bottom-color: $pr-color;
+		color: #000;
+	}
+}

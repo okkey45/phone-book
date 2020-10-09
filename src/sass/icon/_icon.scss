@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+
+.icon {
+	&__trash {
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		top: 1rem;
+		right: 1rem;
+		cursor: pointer;
+	}
+}
